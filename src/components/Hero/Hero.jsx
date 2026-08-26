@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="hero" id="about">
       <div className="hero-img-container">
         {/* Make sure to add your image to the public folder */}
-        <img src="/profile.jpg" alt="Profile" className="hero-img" />
+        <img src="src\assets\images\profile-pic.png" alt="Profile" className="hero-img" />
       </div>
       
       <h1 className="hero-name">Manishi Weerasekara</h1>
