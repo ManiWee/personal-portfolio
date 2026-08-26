@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif; /* Or any clean sans-serif you prefer */
+}
+
+body {
+  min-height: 100vh;
+  background: #291324; /* Exact dark burgundy from the image */
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%; /* Uses percentage for better screen responsiveness */
+    background: #483B47; /* Slightly lighter header background from the image */
+    border-bottom: 2px solid #E010DC; /* The pink bottom border */
+}
+
+.nav-logo {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.dev-text {
+    color: #E010DC;
+    font-weight: 700;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 18px;
+}
+
+.nav-menu a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: white;
+}
