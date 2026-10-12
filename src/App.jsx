@@ -1,17 +1,17 @@
-import React from 'react'
-import Navbar from './components/NavBar/Navbar'
-import Hero from './components/Hero/Hero'
-import Projects from './components/Projects/Projects'
-import './index.css'
+import { Routes, Route } from "react-router-dom"
+import Layout from "./components/layout/Layout"
+import Home from "./pages/Home"
+import Blog from "./pages/Blog"
+import BlogPost from "./pages/BlogPost"
 
-const App = () => {
+export default function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Projects />
-    </div>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
+      </Route>
+    </Routes>
   )
 }
-
-export default App
